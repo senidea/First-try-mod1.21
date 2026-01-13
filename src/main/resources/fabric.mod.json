@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "firsttry",
+	"version": "${version}",
+	"name": "First try",
+	"description": "First try to make a mod about first tries!",
+	"authors": [
+		"senidea"
+	],
+	"contact": {
+		"homepage": "https://senidea.net/",
+		"sources": "https://github.com/First-try-mod1.21"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/firsttry/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.senidea.firsttry.FirstTry"
+		],
+		"fabric-datagen": [
+			"net.senidea.firsttry.FirstTryDataGenerator"
+		],
+        "client": [
+          "net.senidea.firsttry.FirsttryClient"
+        ]
+    },
+	"mixins": [
+		"firsttry.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
