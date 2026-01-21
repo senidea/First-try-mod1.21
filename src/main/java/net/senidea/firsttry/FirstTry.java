@@ -2,6 +2,7 @@ package net.senidea.firsttry;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.senidea.firsttry.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 //the most important comment
@@ -11,6 +12,6 @@ public class FirstTry implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+        ModItems.registerModItems();
 	}
 }
