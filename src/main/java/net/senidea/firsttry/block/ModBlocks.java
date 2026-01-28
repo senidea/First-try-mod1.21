@@ -22,6 +22,14 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
 
+    public static final Block PENGLING_BLOCK = registerBlock("pengling_block",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(1f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.SCULK_SENSOR)));
+
+
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -37,6 +45,7 @@ public class ModBlocks {
         FirstTry.LOGGER.info("Registering Mod Blocks for" + FirstTry.MOD_ID);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries ->{
             fabricItemGroupEntries.add(ModBlocks.PINK_GARNET_BLOCK);
+            fabricItemGroupEntries.add(ModBlocks.PENGLING_BLOCK);
                 });
 
     }
