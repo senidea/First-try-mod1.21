@@ -2,8 +2,13 @@
  "item.firsttry.pink_garnet": "Pink Garnet",
   "item.firsttry.raw_pink_garnet": "Raw Pink Garnet",
   "item.firsttry.pengling": "Pengling",
+  "item.firsttry.pengwing": "Pengwing",
 
   "block.firsttry.pink_garnet_block": "Block of Pink Garnet",
-  "block.firsttry.pengling_block": "Block of Pengling"
+  "block.firsttry.raw_pink_garnet_block": "Block of Raw Pink Garnet",
+  "block.firsttry.pengling_block": "Block of Pengling",
+  "block.firsttry.pengwing_block": "Block of Pengwing",
+  "itemgroup.firsttry.pink_garnet_items": "Pink Garnet Items",
+  "itemgroup.firsttry.pengling_items": "Pengling Items"
 
 }
